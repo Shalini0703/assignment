@@ -1,0 +1,23 @@
+.Product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 50px;
+}
+
+.Product-item{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+
+.Filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
